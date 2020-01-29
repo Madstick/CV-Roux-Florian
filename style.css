@@ -1,0 +1,24 @@
+*
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Nom prénom*/
+
+h1{
+    font-size:4.5em;
+    margin-top:100px;
+    margin-bottom:0px;
+}
+
+.nom1
+{
+    color:rgb(206, 206, 37) ;
+    font-weight:700;
+}
+
+.nom2
+{
+    font-weight: 300;
+}
+
