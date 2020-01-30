@@ -15,11 +15,13 @@ h1{
 {
     color:rgb(206, 206, 37) ;
     font-weight:700;
+    text-shadow: 3px 4px 2px black;
 }
 
 .nom2
 {
     font-weight: 300;
+    text-shadow: 2px 2px 2px black;
 }
 
 i
