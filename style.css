@@ -1,13 +1,14 @@
 * {
   font-family: "Roboto", sans-serif;
+  color: #525252;
   padding: 0;
   margin: 0;
 }
 
 #page {
   width: 100%;
-  padding: 0% 15%;
   margin: auto;
+  max-width: 1199px;
 }
 
 /*Nom prénom*/
@@ -16,49 +17,53 @@ h1 {
   font-size: 4.5em;
   margin-top: 50px;
   font-weight: 300;
-  text-shadow: 2px 2px 2px black;
   font-style: normal;
 }
 
+.nom1 {
+  color: #feca07;
+  font-weight: 700;
+}
+
+.dev {
+  font-size: 0.4em;
+  font-weight: 500;
+}
+
+/*Titres*/
+
 h2 {
   font-size: 2em;
-  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: black;
+}
+
+h2 i {
+  margin-right: 20px;
 }
 
 h3 {
   font-size: 1.2em;
+  text-transform: uppercase;
 }
 
 h4 {
   font-size: 1.6em;
 }
 
-.nom1 {
-  color: rgb(206, 206, 37);
-  font-weight: 700;
-  text-shadow: 3px 4px 2px black;
-}
-
-.hr1 {
-  margin-right: 95%;
-}
-
-.hr2 {
-  margin-right: 25%;
-}
-
 #left-col {
-  width: 30%;
-  background-color: yellow;
+  width: 33%;
+  background-color: #feca07;
 }
 
 #right-col {
-  width: 70%;
+  width: 67%;
   padding-left: 5%;
 }
 
 .circle-wrapper {
-  padding: 35px 20px;
+  padding: 50px 0px;
   width: 100%;
 }
 
@@ -89,45 +94,105 @@ h4 {
   flex-direction: column;
 }
 
+.flex-horizontal {
+  flex-direction: row;
+}
+
 .greybg {
-  background-color: darkgray;
+  background-color: #424242;
 }
 
 .titre1 {
   width: 100%;
-  height: 60px;
+  height: 55px;
   margin-bottom: 20px;
+}
+
+.titre1 p {
+  color: #feca07;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.loisirs {
+  justify-content: space-around;
+  width: 100%;
+  font-size: 3em;
+  margin: 5% 0% 10% 0%;
+  color: black;
 }
 
 .titre2 {
   width: 100%;
 }
 
+.titre2 i {
+  padding-right: 20px;
+}
+
 .contact {
-  padding-bottom: 20px;
-  margin-left: 30%;
+  margin: 5% 20% 5% 5%;
+}
+
+.contact p {
+  padding: 0% 10% 5%;
 }
 
 .contact2 {
-  padding-bottom: 200 px;
   text-align: justify;
-  padding: 0% 10% 50%;
+  padding: 0% 10% 200%;
 }
 
 .formation {
-  padding-top: 50px;
+  padding-top: 3%;
+}
+
+.formation p {
+  padding-top: 2%;
+}
+
+.formation i {
+  color: #feca07;
 }
 
 .head {
-  padding-bottom: 70 px;
+  margin-bottom: 80px;
 }
 
-.soustitre {
-  font-weight: bold;
+.rightdiv {
+  margin-top: 5%;
+}
+
+.text_right {
+  text-align: justify;
+  padding: 0% 0% 0% 20%;
+}
+
+.dates {
+  padding-right: 15%;
+}
+
+.underline {
+  border-bottom: #feca07 solid 2px;
+}
+
+div.underline {
+  padding-bottom: 10px;
+}
+
+.vab {
+  vertical-align: bottom;
+  font-size: 1.3em;
+}
+
+.vab i {
+  color: black;
 }
 
 /* 
 
-align-items-space=between
-
+align-items=space-around
+width: calc(420px + 100vw)
+telephones: 320px min
 */
