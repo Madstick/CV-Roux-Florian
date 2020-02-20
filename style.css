@@ -37,6 +37,11 @@
   padding-left: 5%;
 }
 
+footer {
+  text-align: center;
+  padding: 1% 0% 1% 0%;
+}
+
 /*Nom,prénom,fonction*/
 
 h1 {
@@ -72,8 +77,9 @@ h2 i {
 }
 
 h3 {
-  font-size: 1.2em;
+  font-size: 1.3em;
   text-transform: uppercase;
+  font-weight: 500;
 }
 
 h4 {
@@ -163,7 +169,7 @@ h4 {
 
 .contact2 {
   text-align: justify;
-  padding: 0% 10% 150%;
+  padding: 0% 10% 140%;
 }
 
 .formation {
@@ -217,7 +223,8 @@ div.underline {
 }
 
 .recom {
-  width: 50%;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .recom p:first-child {
