@@ -257,7 +257,7 @@ div.underline {
     width: 90%;  
   }
 
-  .dates, .text_right , h1 , .recom , .rightdiv , .far , .fas , h2 {
+  .dates, .text_right , .recom , .rightdiv , .far , .fas {
     width: 100%;
     justify-content: center;
     text-align: center;
