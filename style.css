@@ -17,6 +17,10 @@
   margin: 0;
 }
 
+html , body {
+  overflow-x: hidden;
+}
+
 #page {
   width: 100%;
   margin: auto;
@@ -155,16 +159,16 @@ h4 {
 .loisirs {
   justify-content: space-around;
   width: 100%;
-  font-size: 3em;
+  font-size: 4em;
   margin: 5% 0% 10% 0%;
 }
 
 .contact {
-  margin: 5% 20% 5% 5%;
+  margin: 2% 20% 5% 10%;
 }
 
 .contact p {
-  padding: 0% 10% 10%;
+  padding-bottom: 10%;
 }
 
 .contact2 {
@@ -190,7 +194,7 @@ h4 {
 
 .rightdiv {
   margin-top: 5%;
-  margin-right: 5%;
+  padding-right: 3%;
 }
 
 .text_right {
@@ -288,11 +292,11 @@ div.underline {
 
 /* Tablettes */
 
-@media all and (max-width: 992px) and (min-width: 500px) { 
+@media all and (max-width: 994px) and (min-width: 500px) { 
 
   #page {
     flex-direction: column-reverse;
-    font-size: 110%; 
+    font-size: 105%; 
   }
 
   #left-col {
@@ -304,7 +308,7 @@ div.underline {
   }
 
   .contact2 {
-    padding: 0% 10% 10% ;
+    padding: 0% 10% 7%;
   }
 
   .photo-wrapper, .photo {
@@ -316,6 +320,19 @@ div.underline {
     line-height: 80%;
     text-align: center;
     font-size: 5em;
+  }
+
+  h2{
+    font-size: 1.8em;
+  }
+
+  .text_right {
+    padding-left: 5%;
+    text-align: left;
+  }
+
+  .recom , .rightdiv{
+    padding-right: 1%;
   }
 
 }
