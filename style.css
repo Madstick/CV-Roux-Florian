@@ -62,7 +62,7 @@ h1 {
   font-weight: 500;
 }
 
-/*Titres*/
+/*Titres et îcones associées*/
 
 h2 {
   font-size: 2em;
@@ -119,7 +119,7 @@ h4 {
   border-radius: 50%;
   height: 200px;
   width: 200px;
-  border: 4px solid orange;
+  border: 4px solid #FFB600;
 }
 
 /*Attributs flex*/
@@ -236,8 +236,54 @@ div.underline {
   font-weight: 300;
 }
 
+
+/* Responsive design 
+.....................*/
+
+/* Téléphones */
+
+@media all and (max-width: 500px) {
+
+  #page {
+    flex-direction: column;
+    font-size: 110%;  
+  }
+
+  #left-col {
+    width: 100%;  
+  }
+
+  #right-col {
+    width: 90%;  
+  }
+
+  .dates, .text_right , h1 , .recom , .rightdiv , .far , .fas , h2 {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1%;
+    flex-direction: column;
+  }
+
+  h2 {
+    font-size: 1.7em;
+   }
+
+  .contact2 {
+    padding: 0% 10% 10% ;
+  }
+
+}
+
+/* Tablettes */
+
+@media all and (max-width: 992px) { 
+
+
+
+}
+
 /* 
 
 width: calc(420px + 100vw)
-telephones: 320px min
 */
