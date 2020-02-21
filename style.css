@@ -253,7 +253,7 @@ div.underline {
 
 /* Téléphones */
 
-@media all and (max-width: 499px) {
+@media all and (max-width: 530px) {
 
   #page {
     flex-direction: column-reverse;
@@ -317,7 +317,7 @@ div.underline {
 
 /* Tablettes */
 
-@media all and (max-width: 994px) and (min-width: 500px) {
+@media all and (max-width: 994px) and (min-width: 530px) {
 
   #page {
     flex-direction: column-reverse;
@@ -338,9 +338,14 @@ div.underline {
 
   .photo-wrapper , .photo {
     background-color: white;
+  }
+
+  .photo{
+    width: 17em;
+    height: 17em;
     border: white;
   }
-  
+
   header {
     padding-top: 10% ;
   }
