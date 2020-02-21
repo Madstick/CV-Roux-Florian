@@ -17,7 +17,8 @@
   margin: 0;
 }
 
-html , body {
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -251,18 +252,25 @@ div.underline {
 
   #page {
     flex-direction: column-reverse;
-    font-size: 110%; 
+    font-size: 110%;
   }
 
   #left-col {
-    width: 100%; 
+    width: 100%;
   }
 
   #right-col {
-    width: 90%; 
+    width: 90%;
   }
 
-  .dates, .text_right , h1 , .recom , .rightdiv , .far , .fas , h2 {
+  .dates,
+  .text_right,
+  h1,
+  .recom,
+  .rightdiv,
+  .far,
+  .fas,
+  h2 {
     width: 100%;
     justify-content: center;
     text-align: center;
@@ -272,18 +280,19 @@ div.underline {
 
   h2 {
     font-size: 1.7em;
-   }
+  }
 
-  h1{
+  h1 {
     font-size: 3.5em;
     line-height: 80%;
   }
 
   .contact2 {
-    padding: 0% 10% 10% ;
+    padding: 0% 10% 10%;
   }
 
-  .photo-wrapper, .photo {
+  .photo-wrapper,
+  .photo {
     background-color: white;
     border: white;
   }
@@ -292,26 +301,27 @@ div.underline {
 
 /* Tablettes */
 
-@media all and (max-width: 994px) and (min-width: 500px) { 
+@media all and (max-width: 994px) and (min-width: 500px) {
 
   #page {
     flex-direction: column-reverse;
-    font-size: 105%; 
+    font-size: 105%;
   }
 
   #left-col {
-    width: 100%; 
+    width: 100%;
   }
 
   #right-col {
-    width: 90%; 
+    width: 90%;
   }
 
   .contact2 {
     padding: 0% 10% 7%;
   }
 
-  .photo-wrapper, .photo {
+  .photo-wrapper,
+  .photo {
     background-color: white;
     border: white;
   }
@@ -322,7 +332,7 @@ div.underline {
     font-size: 5em;
   }
 
-  h2{
+  h2 {
     font-size: 1.8em;
   }
 
@@ -331,7 +341,8 @@ div.underline {
     text-align: left;
   }
 
-  .recom , .rightdiv{
+  .recom,
+  .rightdiv {
     padding-right: 1%;
   }
 
