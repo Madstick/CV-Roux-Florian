@@ -190,6 +190,7 @@ h4 {
 
 .rightdiv {
   margin-top: 5%;
+  margin-right: 5%;
 }
 
 .text_right {
@@ -242,19 +243,19 @@ div.underline {
 
 /* Téléphones */
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 499px) {
 
   #page {
-    flex-direction: column;
-    font-size: 110%;  
+    flex-direction: column-reverse;
+    font-size: 110%; 
   }
 
   #left-col {
-    width: 100%;  
+    width: 100%; 
   }
 
   #right-col {
-    width: 90%;  
+    width: 90%; 
   }
 
   .dates, .text_right , h1 , .recom , .rightdiv , .far , .fas , h2 {
@@ -271,19 +272,51 @@ div.underline {
 
   h1{
     font-size: 3.5em;
+    line-height: 80%;
   }
 
   .contact2 {
     padding: 0% 10% 10% ;
   }
 
+  .photo-wrapper, .photo {
+    background-color: white;
+    border: white;
+  }
+
 }
 
 /* Tablettes */
 
-@media all and (max-width: 992px) { 
+@media all and (max-width: 992px) and (min-width: 500px) { 
 
+  #page {
+    flex-direction: column-reverse;
+    font-size: 110%; 
+  }
 
+  #left-col {
+    width: 100%; 
+  }
+
+  #right-col {
+    width: 90%; 
+  }
+
+  .contact2 {
+    padding: 0% 10% 10% ;
+  }
+
+  .photo-wrapper, .photo {
+    background-color: white;
+    border: white;
+  }
+
+  h1 {
+    line-height: 80%;
+    text-align: center;
+    font-size: 5em;
+  }
 
 }
 
