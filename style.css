@@ -257,7 +257,7 @@ div.underline {
     width: 90%;  
   }
 
-  .dates, .text_right , .recom , .rightdiv , .far , .fas {
+  .dates, .text_right , h1 , .recom , .rightdiv , .far , .fas , h2 {
     width: 100%;
     justify-content: center;
     text-align: center;
@@ -268,6 +268,10 @@ div.underline {
   h2 {
     font-size: 1.7em;
    }
+
+  h1{
+    font-size: 3.5em;
+  }
 
   .contact2 {
     padding: 0% 10% 10% ;
