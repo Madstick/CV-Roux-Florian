@@ -252,6 +252,14 @@ div.underline {
 /* Responsive design 
 .....................*/
 
+/* Affichage photo */
+
+@media screen and (min-width: 994px) {
+  header img{
+      display:none;
+  }
+}
+
 /* Téléphones */
 
 @media all and (max-width: 530px) {
@@ -337,10 +345,6 @@ div.underline {
     padding: 0% 10% 7%;
   }
 
-  .photo-wrapper , .photo {
-    background-color: white;
-  }
-
   .photo{
     width: 17em;
     height: 17em;
@@ -369,6 +373,7 @@ div.underline {
   .recom,
   .rightdiv {
     padding-right: 1%;
+    padding-bottom: 3%;
   }
 
   .recom p{
@@ -376,21 +381,37 @@ div.underline {
   font-size: 90%;
   }
 
-  aside img{
+  aside img , .photo-wrapper{
     display:none;
 }
 
 }
 
+/* Grand écrans */
 
+@media screen and (min-width: 1981px) {
 
-@media screen and (min-width: 994px) {
-  header img{
-      display:none;
-  }
+  #page {
+    max-width: none;
+    font-size: 1vw;
 }
 
-/* 
+  .photo-wrapper{
+    height: 10vw;
+    margin-bottom: 5%;
+  }
 
-width: calc(420px + 100vw)
-*/
+  .photo{
+    height: 15em;
+    width: 15em;
+    border: 0.3em solid #FFB600 ;
+  }
+
+  .contact2{
+    padding: 0% 10% 150%
+  }
+
+}
+
+
+
