@@ -47,6 +47,10 @@ body {
   color: #feca07;
 }
 
+.rightdiv i {
+  padding-top: 2px;
+}
+
 header {
   text-align: center;
 }
@@ -82,10 +86,6 @@ h2 {
   margin-top: 5%;
 }
 
-h2 i {
-  margin-right: .3em;
-}
-
 h3 {
   font-size: 1.3em;
   text-transform: uppercase;
@@ -106,17 +106,13 @@ h3 {
   font-weight: 500;
 }
 
-.titre2 {
-  width: 100%;
-}
-
 .titre2 i {
   padding-right: 20px;
-  padding-left: 5px;
 }
 
 .underline {
   border-bottom: #feca07 solid 2px;
+  padding-bottom: 1%;
 }
 
 /*Photo*/
