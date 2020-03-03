@@ -304,6 +304,10 @@ i.far{
     border: white;
   }
 
+  .photo-wrapper{
+    padding: 3% 0% 10% 0%;
+  }
+
   aside img {
     display: none;
   }
