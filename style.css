@@ -75,6 +75,13 @@ h1 {
 /*Titres et îcones associées*/
 
 h2 {
+  color: #feca07;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+h3 {
   font-size: 2em;
   text-transform: uppercase;
   font-weight: 500;
@@ -82,7 +89,7 @@ h2 {
   margin-top: 5%;
 }
 
-h3 {
+h4 {
   font-size: 1.3em;
   text-transform: uppercase;
   font-weight: 500;
@@ -93,13 +100,6 @@ h3 {
   height: 3em;
   margin-bottom: 5%;
   background-color: #424242;
-}
-
-.titre1 p {
-  color: #feca07;
-  font-size: 1.8em;
-  text-transform: uppercase;
-  font-weight: 500;
 }
 
 .titre2 i {
@@ -168,7 +168,7 @@ i.far{
 }
 
 .contact {
-  margin: 2% 20% 2% 10%;
+  margin: 2% 10% 2% 10%;
 }
 
 .contact p {
@@ -177,7 +177,7 @@ i.far{
 
 .contact2 {
   text-align: justify;
-  padding: 0% 10% 140%;
+  padding: 0% 10% 10%;
 }
 
 .formation {
@@ -262,14 +262,23 @@ i.far{
     width: 90%;
   }
 
+  .contact {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 1% 0% 1% 0%;
+  }
+
   .dates,
   .text_right,
   h1,
   .recom,
   .rightdiv,
-  .far,
-  .fas,
-  h2 {
+  #right-col .far,
+  #right-col .fas,
+  h2,
+  h3 {
     width: 100%;
     justify-content: center;
     text-align: center;
@@ -281,8 +290,8 @@ i.far{
     padding-top: 5%;
   }
 
-  h2 {
-    font-size: 1.7em;
+  h3 {
+    font-size: 1.6em;
   }
 
   .titre2 i {
@@ -332,7 +341,7 @@ i.far{
   }
 
   #right-col {
-    width: 90%;
+    width: 90%;   
   }
 
   .contact {
